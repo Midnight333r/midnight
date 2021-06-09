@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+    width: 100%;
+    background-color: #9b59b6;
+    background-image: url('');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+  }
+
+#particles-js p {
+      text-align: center;
+      color: white;
+      font-family: 'Rubic', sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+#particles-js .images {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#particles-js  a {
+    display: inline-block;
+}
+
+#particles-js .images svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    margin: 0 20px;
+}
+
+.labs {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.labs a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: 'Rubic', sans-serif;
+  position: relative;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.labs a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  transition: all 0.5s;
+  height: 2px;
+  background-color: #2c3e50;
+}
+
+.labs a:hover:after{
+  width: 100%;
+}

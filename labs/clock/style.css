@@ -1,0 +1,23 @@
+#analogClock {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.button-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.active {
+	opacity: 1;
+}
